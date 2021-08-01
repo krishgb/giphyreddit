@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  a {
+    font-weight: bold;
+    margin: 1rem;
+    color: #222;
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+    background: white;
+    text-align: center;
+    border-radius: 2px;
+    border: 2px solid black;
+
+    p {
+      width: 80%;
+      margin: auto;
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    img {
+      margin: 1rem;
+      transition: 0.3s all ease-in-out;
+      border-radius: 2px;
+      &:hover {
+        background: white;
+        transform: scale(1.4);
+      }
+    }
+  }
+}
