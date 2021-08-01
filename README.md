@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Gipphy | Reddit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[Demo here](https://giphyred.web.app)
 
 ## Available Scripts
 
