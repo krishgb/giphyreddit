@@ -106,10 +106,6 @@ export default function Giphy() {
     }
 
 
-    const top = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
 
     return (
         <div className={classes.giphy}>
@@ -134,12 +130,7 @@ export default function Giphy() {
             {searchText && state.searched.length ? <Showgifs gifs={state.searched} refElement={refElement} /> : null}
 
             {loading && <h3 style={{ textAlign: 'center', fontFamily: 'Segoe UI', color: 'white' }}>Loading... </h3>}
-            <img
-                className={classes.arrow}
-                src={`${require('../../assests/arrow.svg').default}`}
-                alt="Top"
-                onClick={top}
-            />
+
         </div>
     )
 }

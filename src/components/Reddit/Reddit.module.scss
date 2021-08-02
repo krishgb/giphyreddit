@@ -1,0 +1,22 @@
+.reddit {
+  margin: auto;
+  width: auto;
+  text-align: center;
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    input,
+    button {
+      background: transparent;
+      border: 2px solid black;
+      border-radius: 2px;
+    }
+
+    input {
+      font-size: 1.1rem;
+    }
+  }
+}

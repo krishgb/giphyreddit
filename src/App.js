@@ -14,9 +14,14 @@ function App() {
   const toggle = `
   img[name=${current}] {
     cursor: pointer;
-    background: white;
+    background: lightgreen;
     }
   `
+
+  const top = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 
 
   return (
@@ -56,6 +61,13 @@ function App() {
       }
 
       {/* <Giphy /> */}
+
+      <img
+        className={classes.arrow}
+        src={`${require('./assests/arrow.svg').default}`}
+        alt="Top"
+        onClick={top}
+      />
     </div>
   );
 }

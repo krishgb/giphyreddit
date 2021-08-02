@@ -6,10 +6,11 @@
   a {
     font-weight: bold;
     margin: 1rem;
-    color: #222;
+    color: #000;
     text-decoration: none;
     font-family: "Varela Round", sans-serif;
     background: white;
+    // background: rgb(18, 253, 187);
     text-align: center;
     border-radius: 2px;
     border: 2px solid black;
@@ -17,7 +18,7 @@
     p {
       width: 80%;
       margin: auto;
-      opacity: 0.8;
+      opacity: 0.9;
 
       &:hover {
         opacity: 1;

@@ -31,3 +31,20 @@
     }
   }
 }
+
+.arrow {
+  width: 2rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5rem;
+  box-shadow: 5px 5px 5px #000;
+  padding: 3px;
+  transition: 0.1s all ease-in;
+  background: black;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
