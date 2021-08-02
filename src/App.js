@@ -36,7 +36,7 @@ function App() {
             alt="Giphy"
           />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span style={{ fontSize: '2rem' }}>for</span><img
+          <img
             name='reddit'
             onClick={(event) => { setCurrent(pages.reddit) }}
             src={require('./assests/reddit.svg').default}
