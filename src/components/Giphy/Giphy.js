@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, useCallback, useReducer } from 'react'
-import { getGifs } from '../../customHooks/giphy'
+import { getGifs } from '../../apiCalls/giphy'
 import Showgifs from '../Showgifs/Showgifs'
 import classes from './Giphy.module.scss'
 

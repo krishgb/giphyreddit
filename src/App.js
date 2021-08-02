@@ -35,7 +35,7 @@ function App() {
             src={require('./assests/giphy.svg').default}
             alt="Giphy"
           />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;
           <img
             name='reddit'
             onClick={(event) => { setCurrent(pages.reddit) }}
